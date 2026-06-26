@@ -1,0 +1,45 @@
+timestamp,src_ip,src_port,dest_ip,dest_port,proto,severity,signature,category,engine
+2025-06-12T12:00:00Z,10.0.0.11,50001,10.0.0.6,22,TCP,1,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:00:20Z,10.0.0.11,50001,10.0.0.6,22,TCP,0,,,zeek
+2025-06-12T12:01:00Z,10.0.0.11,50002,10.0.0.7,22,TCP,4,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:01:20Z,10.0.0.11,50002,10.0.0.7,22,TCP,0,,,zeek
+2025-06-12T12:02:00Z,10.0.0.10,50003,10.0.0.7,80,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:02:20Z,10.0.0.10,50003,10.0.0.7,80,TCP,0,,,zeek
+2025-06-12T12:03:00Z,10.0.0.12,50004,10.0.0.6,443,TCP,3,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:03:20Z,10.0.0.12,50004,10.0.0.6,443,TCP,0,,,zeek
+2025-06-12T12:04:00Z,10.0.0.11,50005,10.0.0.6,80,TCP,3,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:04:20Z,10.0.0.11,50005,10.0.0.6,80,TCP,0,,,zeek
+2025-06-12T12:05:00Z,10.0.0.11,50006,10.0.0.6,445,TCP,4,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:06:00Z,10.0.0.12,50007,10.0.0.7,22,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:07:00Z,10.0.0.10,50008,10.0.0.7,443,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:07:20Z,10.0.0.10,50008,10.0.0.7,443,TCP,0,,,zeek
+2025-06-12T12:08:00Z,10.0.0.12,50009,10.0.0.5,443,TCP,3,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:08:20Z,10.0.0.12,50009,10.0.0.5,443,TCP,0,,,zeek
+2025-06-12T12:09:00Z,10.0.0.12,50010,10.0.0.5,443,TCP,4,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:09:20Z,10.0.0.12,50010,10.0.0.5,443,TCP,0,,,zeek
+2025-06-12T12:10:00Z,10.0.0.12,50011,10.0.0.6,445,TCP,4,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:10:20Z,10.0.0.12,50011,10.0.0.6,445,TCP,0,,,zeek
+2025-06-12T12:11:00Z,10.0.0.12,50012,10.0.0.7,445,TCP,2,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:11:20Z,10.0.0.12,50012,10.0.0.7,445,TCP,0,,,zeek
+2025-06-12T12:12:00Z,10.0.0.12,50013,10.0.0.5,3389,TCP,1,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:13:00Z,10.0.0.12,50014,10.0.0.7,3389,TCP,2,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:13:20Z,10.0.0.12,50014,10.0.0.7,3389,TCP,0,,,zeek
+2025-06-12T12:14:00Z,10.0.0.12,50015,10.0.0.7,80,TCP,1,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:14:20Z,10.0.0.12,50015,10.0.0.7,80,TCP,0,,,zeek
+2025-06-12T12:15:00Z,10.0.0.10,50016,10.0.0.5,445,TCP,3,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:15:20Z,10.0.0.10,50016,10.0.0.5,445,TCP,0,,,zeek
+2025-06-12T12:16:00Z,10.0.0.10,50017,10.0.0.7,80,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:16:20Z,10.0.0.10,50017,10.0.0.7,80,TCP,0,,,zeek
+2025-06-12T12:17:00Z,10.0.0.12,50018,10.0.0.5,80,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:17:20Z,10.0.0.12,50018,10.0.0.5,80,TCP,0,,,zeek
+2025-06-12T12:18:00Z,10.0.0.10,50019,10.0.0.6,445,TCP,3,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:18:20Z,10.0.0.10,50019,10.0.0.6,445,TCP,0,,,zeek
+2025-06-12T12:19:00Z,10.0.0.11,50020,10.0.0.7,443,TCP,1,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:20:00Z,10.0.0.11,50021,10.0.0.5,443,TCP,2,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:20:20Z,10.0.0.11,50021,10.0.0.5,443,TCP,0,,,zeek
+2025-06-12T12:21:00Z,10.0.0.11,50022,10.0.0.5,445,TCP,1,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:21:20Z,10.0.0.11,50022,10.0.0.5,445,TCP,0,,,zeek
+2025-06-12T12:22:00Z,10.0.0.12,50023,10.0.0.7,3389,TCP,4,ET TEST Possible Lateral,Potential Lateral Movement,suricata
+2025-06-12T12:22:20Z,10.0.0.12,50023,10.0.0.7,3389,TCP,0,,,zeek
+2025-06-12T12:23:00Z,10.0.0.10,50024,10.0.0.6,80,TCP,1,ET TEST Network Activity,Network Communications,suricata
+2025-06-12T12:23:20Z,10.0.0.10,50024,10.0.0.6,80,TCP,0,,,zeek

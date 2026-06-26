@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  lab:
+    build: .
+    container_name: ai_cybersecurity_lab
+    working_dir: /app
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true

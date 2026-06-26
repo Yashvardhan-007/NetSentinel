@@ -1,0 +1,6 @@
+detections:
+  lateral_movement_smb:
+    technique: T1021.002
+    tactic: Lateral Movement
+    references:
+      - https://attack.mitre.org/techniques/T1021/002/
