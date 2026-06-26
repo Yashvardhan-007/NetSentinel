@@ -54,13 +54,9 @@ and **Slither** to analyze Solidity contracts for vulnerabilities.
 The project generates **dashboards** that help visualize alerts and
 scoring.
 
-### Page 1 --- Basic Alert Overview
+### Page --- Advanced Analysis
 
-![Dashboard Page 1](artifacts/dashboard_page1.png)
-
-### Page 2 --- Advanced Analysis
-
-![Dashboard Page 2](artifacts/dashboard_page2.png)
+![Dashboard Page](artifacts/dashboard_page2.png)
 
 ------------------------------------------------------------------------
 
